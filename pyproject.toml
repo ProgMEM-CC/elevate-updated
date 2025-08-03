@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "elevate-updated"
+version = "0.1.5"
+description = "Python library for requesting root privileges"
+readme = "README.rst"
+license = {text = "MIT"}
+authors = [
+    {name = "ProgMEM"}
+]
+urls = { "Homepage" = "https://github.com/progmem-cc/elevate" }
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["elevate_updated"]
