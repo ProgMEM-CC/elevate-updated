@@ -1,0 +1,9 @@
+README.rst
+pyproject.toml
+elevate_updated/__init__.py
+elevate_updated/posix.py
+elevate_updated/windows.py
+elevate_updated.egg-info/PKG-INFO
+elevate_updated.egg-info/SOURCES.txt
+elevate_updated.egg-info/dependency_links.txt
+elevate_updated.egg-info/top_level.txt
